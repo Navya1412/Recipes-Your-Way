@@ -11,6 +11,44 @@
     </head>
     <body>
         <h2> Let's get cooking!</h2>
+
+        <div id="ingredient-list" class="veggies">
+            <p> Veggies </p>
+            <label><input type="checkbox" value="tomato"> Tomato </label>
+            <label><input type="checkbox" value="garlic"> Garlic </label>
+            <label><input type="checkbox" value="onion"> Onion </label>
+            <label><input type="checkbox" value="basil"> Basil </label>
+            <label><input type="checkbox" value="carrot"> Carrot </label>
+            <label><input type="checkbox" value="potato"> Potato </label>
+            <label><input type="checkbox" value="capsicum"> Capsicum </label>
+            <label><input type="checkbox" value="spinach"> Spinach </label>
+            <label><input type="checkbox" value="peas"> Peas </label>
+            <label><input type="checkbox" value="beans"> Beans </label>
+            <label><input type="checkbox" value="corn"> Corn </label>
+        </div>
+
+        <div id="ingredient-list" class="meat">
+            <p> Meat </p>
+            <label><input type="checkbox" value="chicken"> Chicken </label>
+            <label><input type="checkbox" value="beef"> Beef </label>
+            <label><input type="checkbox" value="pork"> Pork </label>
+        </div>
+
+        <div id="ingredient-list" class="dairy">
+            <p> Dairy </p>
+            <label><input type="checkbox" value="cheese"> Cheese </label>
+            <label><input type="checkbox" value="milk"> Milk </label>
+            <label><input type="checkbox" value="butter"> Butter </label>
+            <label><input type="checkbox" value="eggs"> Eggs </label>
+        </div>
+
+        <button onclick="selectIngredients()">Add Selected Ingredients</button>
+        <p id="selected-ingredients">Selected Ingredients: None</p>
         
+        <button onclick="getRecipes()"> Find Recipes </button>
+        
+        <div id="recipes"></div>
+        
+        <script src="Assets/js/script.js"></script>
     </body>
 </html>
