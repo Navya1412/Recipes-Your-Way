@@ -51,6 +51,7 @@
 //     });
 // }
 
+
 const apiKey = '7fc90e7bff9c4719aa39bcb858ce567e';
 let selectedIngredients = [];
 
@@ -74,7 +75,7 @@ async function getRecipes() {
     }
 
     const ingredients = selectedIngredients.join(',');
-    const apiUrl = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${ingredients}&number=5&apiKey=${apiKey}`;
+    const apiUrl = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${ingredients}&number=12&apiKey=${apiKey}`;
 
     try {
         const response = await fetch(apiUrl);

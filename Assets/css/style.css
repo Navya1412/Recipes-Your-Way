@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     padding: 20px;
 }
 
@@ -11,16 +11,16 @@ h1 {
 }
 
 #ingredient-list {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     gap: 10px;
     margin-bottom: 15px;
 }
 
-#ingredient-list label {
+/* #ingredient-list label {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 5px; */
 }
 
 button {
@@ -44,11 +44,11 @@ button:hover {
 
 #recipes {
     margin-top: 20px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
     width: 100%;
-    max-width: 600px;
+    
 }
 
 .recipe {
