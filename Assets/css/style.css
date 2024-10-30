@@ -1,8 +1,8 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
     padding: 20px;
 }
 
@@ -11,16 +11,16 @@ h1 {
 }
 
 #ingredient-list {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 15px;
 }
 
-/* #ingredient-list label {
+#ingredient-list label {
     display: flex;
     align-items: center;
-    gap: 5px; */
+    gap: 5px;
 }
 
 button {
@@ -69,4 +69,80 @@ button:hover {
 
 .recipe a:hover {
     text-decoration: underline;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cinzel:wght@400..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    padding-left: 7em;
+    padding-right: 7em;
+    background-color: #D8BFD8 /*#DDA0DD*/;
+    font-size: 12px;
+}
+
+h1{
+    font-family: "Cinzel", serif;
+    font-size: 4em;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+h2{
+    font-family: "Mulish", sans-serif;
+    font-size: 2em;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 0.5em;
+}
+
+label{
+    font-family: "Mulish", sans-serif;
+    font-size: 1.5em;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+p{
+
+}
+
+.veggies{
+    background: rgba(0, 0, 0, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    padding: 2em;
+    margin: 2em;
+}
+
+.meat-seafood{
+    background: rgba(0, 0, 0, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    padding: 2em;
+    margin: 2em;
+}
+
+.dairy{
+    background: rgba(0, 0, 0, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    padding: 2em;
+    margin: 2em;
 }

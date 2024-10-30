@@ -10,39 +10,51 @@
         <link rel="stylesheet" href="Assets/css/style.css">
     </head>
     <body>
-        <h2> Let's get cooking!</h2>
+        <h1> Let's get cooking!</h1>
 
         <div id="ingredient-list" class="veggies">
-            <p> Veggies </p>
-            <label><input type="checkbox" value="tomato"> Tomato </label>
-            <label><input type="checkbox" value="garlic"> Garlic </label>
-            <label><input type="checkbox" value="onion"> Onion </label>
-            <label><input type="checkbox" value="basil"> Basil </label>
-            <label><input type="checkbox" value="carrot"> Carrot </label>
-            <label><input type="checkbox" value="potato"> Potato </label>
-            <label><input type="checkbox" value="capsicum"> Capsicum </label>
-            <label><input type="checkbox" value="spinach"> Spinach </label>
-            <label><input type="checkbox" value="peas"> Peas </label>
-            <label><input type="checkbox" value="beans"> Beans </label>
-            <label><input type="checkbox" value="corn"> Corn </label>
+            <h2> Veggies </h2>
+            <label><input type="checkbox" value="Tomato"> Tomato </label>
+            <label><input type="checkbox" value="Onion"> Onion </label>
+            <label><input type="checkbox" value="Carrot"> Carrot </label>
+            <label><input type="checkbox" value="Potato"> Potato </label>
+            <label><input type="checkbox" value="Capsicum"> Capsicum </label>
+            <label><input type="checkbox" value="Spinach"> Spinach </label>
+            <label><input type="checkbox" value="Peas"> Peas </label>
+            <label><input type="checkbox" value="Beans"> Beans </label>
+            <label><input type="checkbox" value="Corn"> Corn </label>
+            <label><input type="checkbox" value="Cabbage"> Cabbage </label>
         </div>
 
-        <div id="ingredient-list" class="meat">
-            <p> Meat </p>
-            <label><input type="checkbox" value="chicken"> Chicken </label>
-            <label><input type="checkbox" value="beef"> Beef </label>
-            <label><input type="checkbox" value="pork"> Pork </label>
+        <div id="ingredient-list" class="meat-seafood">
+            <h2> Meat and Seafood </h2>
+            <label><input type="checkbox" value="Chicken"> Chicken </label>
+            <label><input type="checkbox" value="Beef"> Beef </label>
+            <label><input type="checkbox" value="Pork"> Pork </label>
+            <label><input type="checkbox" value="Duck"> Duck </label>
+            <label><input type="checkbox" value="Lamb"> Lamb </label>
+            <label><input type="checkbox" value="Fish"> Fish </label>
+            <label><input type="checkbox" value="Shirmp"> Shirmp </label>
+            <label><input type="checkbox" value="Oyster"> Oyster </label>
+            <label><input type="checkbox" value="Lobster"> Lobster </label>
+            <label><input type="checkbox" value="Crab"> Crab </label>
         </div>
 
         <div id="ingredient-list" class="dairy">
-            <p> Dairy </p>
-            <label><input type="checkbox" value="cheese"> Cheese </label>
-            <label><input type="checkbox" value="milk"> Milk </label>
-            <label><input type="checkbox" value="butter"> Butter </label>
-            <label><input type="checkbox" value="eggs"> Eggs </label>
+            <h2> Dairy </h2>
+            <label><input type="checkbox" value="Cheese"> Cheese </label>
+            <label><input type="checkbox" value="Milk"> Milk </label>
+            <label><input type="checkbox" value="Butter"> Butter </label>
+            <label><input type="checkbox" value="Eggs"> Eggs </label>
+            <label><input type="checkbox" value="Cream"> Cream </label>
+            <label><input type="checkbox" value="Yogurt"> Yogurt </label>
+            <label><input type="checkbox" value="Ice Cream"> Ice Cream </label>
+            <label><input type="checkbox" value="Cottage Cheese"> Cottage Cheese </label>
+            <label><input type="checkbox" value="Sour Cream"> Sour Cream </label>
+            <label><input type="checkbox" value="Custard"> Custard </label>
         </div>
 
-        <button onclick="setIngredients()"> Add Selected Ingredients </button>
+        <button onclick="setIngredients()"> Add To Cart </button>
         <p id="selected-ingredients">Selected Ingredients: None</p>
         
         <button onclick="getRecipes()"> Find Recipes </button>

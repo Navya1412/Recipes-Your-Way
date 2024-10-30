@@ -1,3 +1,4 @@
+// First Attempt
 // const apiKey='7fc90e7bff9c4719aa39bcb858ce567e';
 // const apiUrl= 'https://api.spoonacular.com/recipes/complexSearch/findByIngredients?ingredients=${ingredients}&number=5&apiKey=${apiKey}`;const apiUrl = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${ingredients}&number=5&apiKey=${apiKey}';
 
@@ -52,6 +53,7 @@
 // }
 
 
+// Second Attempt
 const apiKey = '7fc90e7bff9c4719aa39bcb858ce567e';
 let selectedIngredients = [];
 
