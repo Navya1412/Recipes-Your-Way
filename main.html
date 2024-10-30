@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Recipes Your Way </title>
+
+        <link rel="stylesheet" href="Assets/css/reset.css">
+        <link rel="stylesheet" href="Assets/css/style.css">
+    </head>
+    <body>
+        <h1> Let's Get Cooking!</h1>
+        
+        <section class="main">
+            <div id="ingredient-list" class="veggies">
+                <h2> Veggies </h2>
+                <label><input type="checkbox" value="Tomato"> Tomato </label>
+                <label><input type="checkbox" value="Onion"> Onion </label>
+                <label><input type="checkbox" value="Carrot"> Carrot </label>
+                <label><input type="checkbox" value="Potato"> Potato </label>
+                <label><input type="checkbox" value="Capsicum"> Capsicum </label>
+                <label><input type="checkbox" value="Spinach"> Spinach </label>
+                <label><input type="checkbox" value="Peas"> Peas </label>
+                <label><input type="checkbox" value="Beans"> Beans </label>
+                <label><input type="checkbox" value="Corn"> Corn </label>
+                <label><input type="checkbox" value="Cabbage"> Cabbage </label>
+            </div>
+
+            <div id="ingredient-list" class="meat-seafood">
+                <h2> Meat and Seafood </h2>
+                <label><input type="checkbox" value="Chicken"> Chicken </label>
+                <label><input type="checkbox" value="Beef"> Beef </label>
+                <label><input type="checkbox" value="Pork"> Pork </label>
+                <label><input type="checkbox" value="Duck"> Duck </label>
+                <label><input type="checkbox" value="Lamb"> Lamb </label>
+                <label><input type="checkbox" value="Turkey"> Turkey </label>
+                <label><input type="checkbox" value="Scallops"> Scallops </label>
+                <label><input type="checkbox" value="Fish"> Fish </label>
+                <label><input type="checkbox" value="Shirmp"> Shirmp </label>
+                <label><input type="checkbox" value="Crab"> Crab </label>
+            </div>
+
+            <div id="ingredient-list" class="dairy">
+                <h2> Dairy </h2>
+                <label><input type="checkbox" value="Cheese"> Cheese </label>
+                <label><input type="checkbox" value="Milk"> Milk </label>
+                <label><input type="checkbox" value="Butter"> Butter </label>
+                <label><input type="checkbox" value="Eggs"> Eggs </label>
+                <label><input type="checkbox" value="Cream"> Cream </label>
+                <label><input type="checkbox" value="Yogurt"> Yogurt </label>
+                <label><input type="checkbox" value="Ice Cream"> Ice Cream </label>
+                <label><input type="checkbox" value="Cottage Cheese"> Cottage Cheese </label>
+                <label><input type="checkbox" value="Sour Cream"> Sour Cream </label>
+                <label><input type="checkbox" value="Custard"> Custard </label>
+            </div>
+
+            <button class="basket" onclick="setIngredients()"> Add To Basket </button>
+        </section>
+
+        <section class="second">
+            <p id="selected-ingredients">Selected Ingredients: None</p>
+            <button class="find" onclick="getRecipes()"> Find Recipes </button>
+        </section>
+        
+        <section class="third">
+            <div id="recipes"></div>
+        </section>
+        
+        <script src="Assets/js/script.js"></script>
+    </body>
+</html>

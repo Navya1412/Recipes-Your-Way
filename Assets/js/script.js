@@ -105,8 +105,7 @@ function displayRecipes(recipes) {
 
         recipeElement.innerHTML = `
             <h3>${recipe.title}</h3>
-            <img src="${recipe.image}" alt="${recipe.title}">
-            <a href="https://spoonacular.com/recipes/${recipe.title.replaceAll(' ', '-').toLowerCase()}-${recipe.id}" target="_blank">View Recipe</a>
+            <a href="https://spoonacular.com/recipes/${recipe.title.replaceAll(' ', '-').toLowerCase()}-${recipe.id}" target="_blank"><img src="${recipe.image}" alt="${recipe.title}"><a>
         `;
 
         recipesContainer.appendChild(recipeElement);

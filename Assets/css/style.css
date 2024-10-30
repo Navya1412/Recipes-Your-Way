@@ -74,9 +74,9 @@ button:hover {
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cinzel:wght@400..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 body{
-    padding-left: 7em;
-    padding-right: 7em;
-    background-color: #D8BFD8 /*#DDA0DD*/;
+    padding-left: 6em;
+    padding-right: 6em;
+    background-color: #D8BFD8;
     font-size: 12px;
 }
 
@@ -91,12 +91,26 @@ h1{
     padding-bottom: 0.5em;
 }
 
+.heading{
+    font-size: 6em;
+}
+
 h2{
     font-family: "Mulish", sans-serif;
     font-size: 2em;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    padding-bottom: 0.5em;
+}
+
+h3{
+    font-family: "Mulish", sans-serif;
+    font-size: 1.25em;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 1em;
     padding-bottom: 0.5em;
 }
 
@@ -111,38 +125,88 @@ label{
 }
 
 p{
+    font-family: "Mulish", sans-serif;
+    font-size: 2em;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
 
 }
 
-.veggies{
+.main{
     background: rgba(0, 0, 0, 0.14);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     border: 1px solid rgba(0, 0, 0, 0.43);
-    padding: 2em;
-    margin: 2em;
 }
 
-.meat-seafood{
+#ingredient-list{
+    padding: 3em;
+}
+
+button{
+    font-family: "Mulish", sans-serif;
+    font-size: 1.75em;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background: #dfdfdf;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+.basket{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.second{
+    margin-top: 2em;
     background: rgba(0, 0, 0, 0.14);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     border: 1px solid rgba(0, 0, 0, 0.43);
-    padding: 2em;
-    margin: 2em;
+    margin-bottom: 4em;
 }
 
-.dairy{
-    background: rgba(0, 0, 0, 0.14);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    border: 1px solid rgba(0, 0, 0, 0.43);
-    padding: 2em;
-    margin: 2em;
+.second p{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.find{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+#recipes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1.5em;
+    row-gap: 1.5em;
+    margin-bottom: 2em;
+}
+
+.recipe img {
+    width: 25em;
+    height: fit-content;
+    border-radius: 1em;
+}
+
+.recipe:hover{
+    text-decoration: underline;
+}
+
+.recipe img:hover{
+    width: 27em;
 }
